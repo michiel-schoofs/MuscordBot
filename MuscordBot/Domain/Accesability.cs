@@ -6,7 +6,6 @@ namespace MuscordBot.Domain {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
-        public string[] beperktePlaatsen { get; set; }
         public bool wheelchairAc { get; set; }
         public int aangepasteToilleten { get; set; }
         public int aangepasteParking { get; set; }

@@ -13,7 +13,7 @@ namespace MuscordBot.Data.Parsers {
         }
 
         public void parseToDomainAndPersist(JArray ja) {
-
+            //Console.WriteLine(ja.)
         }
     }
 }

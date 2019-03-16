@@ -46,6 +46,8 @@ namespace MuscordBot {
             Console.WriteLine("Injecting to database");
 
             apd = new ApplicationDbContext();
+            apd.Database.EnsureDeleted();
+            apd.Database.EnsureCreated();
 
             _services = new ServiceCollection()
                             .AddSingleton(_client)

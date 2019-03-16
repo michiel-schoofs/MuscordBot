@@ -9,7 +9,7 @@ namespace MuscordBot.Data.Mappers {
 
             builder
                 .HasOne(m => m.Accesability)
-                .WithOne()
+                .WithMany()
                 .OnDelete(DeleteBehavior.Cascade);
 
             builder
