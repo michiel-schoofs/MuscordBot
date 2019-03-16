@@ -10,6 +10,7 @@ using System;
 using System.Reflection;
 using System.Threading.Tasks;
 using MuscordBot.Data.Parsers;
+using MuscordBot.EmbedBuilders;
 
 namespace MuscordBot {
     class Program {
@@ -54,6 +55,7 @@ namespace MuscordBot {
                             .AddSingleton(apd)
                             .AddScoped<IMuseumRepo, MuseumRepository>()
                             .AddScoped<Museum_Accesability_Parser>()
+                            .AddScoped<MuseumListBuilder>()
                             .BuildServiceProvider();
         }
 

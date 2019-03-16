@@ -23,7 +23,7 @@ namespace MuscordBot.Data.Repositories {
 
         public Museum getByName(string name) {
             return _musea.Include(m=>m.Accesability)
-                .FirstOrDefault(m => m.Naam.ToLower().Contains(name));
+                .FirstOrDefault(m => m.Naam.ToLower().Contains(name.ToLower()));
         }
 
         public void remove(Museum ms) {
