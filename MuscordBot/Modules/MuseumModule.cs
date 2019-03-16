@@ -32,15 +32,17 @@ namespace MuscordBot.Data.Connection {
         [Command("getinfo")]
         [Alias("gi")]
         public async Task GetInfo(string name) {
-            await RetrieveApiData();
             EmbedBuilder emb = _mlb.maakGroteEmbedMuseum(name);
             await Context.Channel.SendMessageAsync(embed: emb.Build());
         }
 
         [Command("rate")]
         public async Task MakeRate(string name) {
-            await RetrieveApiData();
-            await Context.Channel.SendMessageAsync($"test {name}");
+            EmbedBuilder emb = _mlb.maakGroteEmbedMuseum(name);
+            var res = await Context.Channel.SendMessageAsync(embed: emb.Build());
+            IEmote check = new Emoji("✅");
+            IEmote cross = new Emoji("❌");
+            await res.AddReactionsAsync(new IEmote[] { check, cross });
         }
 
 

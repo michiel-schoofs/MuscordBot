@@ -29,7 +29,11 @@ namespace MuscordBot.EmbedBuilders {
             Museum m = repo.getByName(naam);
 
             em.Title = m.Naam;
-            em.Description = "Beschrijving hier";
+            em.WithThumbnailUrl(m.AfbeeldingUrl);
+            em.Description = m.Description;
+
+            em.WithUrl(m.Url);
+
             Accesability a = m.Accesability;
             em.WithColor(Color.DarkPurple);
 
