@@ -4,9 +4,12 @@ using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
 using MuscordBot.Data;
 using MuscordBot.Data.Connection;
+using MuscordBot.Data.Repositories;
+using MuscordBot.Domain;
 using System;
 using System.Reflection;
 using System.Threading.Tasks;
+using MuscordBot.Data.Parsers;
 
 namespace MuscordBot {
     class Program {
@@ -14,7 +17,7 @@ namespace MuscordBot {
         private CommandService _commands;
         private IServiceProvider _services;
         private readonly string prefix = "!";
-        private JSONConnection _connection;
+        private ApplicationDbContext apd;
 
         static void Main(string[] args) {
             new Program().MainAsync().GetAwaiter().GetResult();
@@ -42,8 +45,13 @@ namespace MuscordBot {
         private void DependencyInjection() {
             Console.WriteLine("Injecting to database");
 
+            apd = new ApplicationDbContext();
+
             _services = new ServiceCollection()
                             .AddSingleton(_client)
+                            .AddSingleton(apd)
+                            .AddScoped<IMuseumRepo, MuseumRepository>()
+                            .AddScoped<Museum_Accesability_Parser>()
                             .BuildServiceProvider();
         }
 
