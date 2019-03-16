@@ -1,0 +1,261 @@
+{
+   "Document": {
+      "Schema": {
+         "@name": "CUL_VECHISTORISCHEHUIZEN2019_1",
+         "@id": "CUL_VECHISTORISCHEHUIZEN2019_1",
+         "SimpleField": [
+            {
+               "@name": "Naam"
+            },
+            {
+               "@name": "Adres"
+            },
+            {
+               "@name": "Thema"
+            },
+            {
+               "@name": "Gemeente"
+            },
+            {
+               "@name": "Pcode"
+            }
+         ]
+      },
+      "Folder": {
+         "name": "CUL_VECHISTORISCHEHUIZEN2019",
+         "Placemark": [
+            {
+               "@id": "CUL_VECHISTORISCHEHUIZEN2019.1",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#CUL_VECHISTORISCHEHUIZEN2019_1",
+                     "SimpleData": [
+                        {
+                           "@name": "Naam",
+                           "#text": "Gravensteen"
+                        },
+                        {
+                           "@name": "Adres",
+                           "#text": "Sint-Veerleplein 11"
+                        },
+                        {
+                           "@name": "Thema",
+                           "#text": "Historische Huizen"
+                        },
+                        {
+                           "@name": "Gemeente",
+                           "#text": "Gent"
+                        },
+                        {
+                           "@name": "Pcode",
+                           "#text": "9000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.720650638522576,51.05715532133108"
+               }
+            },
+            {
+               "@id": "CUL_VECHISTORISCHEHUIZEN2019.2",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#CUL_VECHISTORISCHEHUIZEN2019_1",
+                     "SimpleData": [
+                        {
+                           "@name": "Naam",
+                           "#text": "Sint-Pietersabdij"
+                        },
+                        {
+                           "@name": "Adres",
+                           "#text": "Sint-Pietersplein 9-15"
+                        },
+                        {
+                           "@name": "Thema",
+                           "#text": "Historische Huizen"
+                        },
+                        {
+                           "@name": "Gemeente",
+                           "#text": "Gent"
+                        },
+                        {
+                           "@name": "Pcode",
+                           "#text": "9000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.727022645750979,51.0419289321658"
+               }
+            },
+            {
+               "@id": "CUL_VECHISTORISCHEHUIZEN2019.3",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#CUL_VECHISTORISCHEHUIZEN2019_1",
+                     "SimpleData": [
+                        {
+                           "@name": "Naam",
+                           "#text": "Sint-Baafsabdij"
+                        },
+                        {
+                           "@name": "Adres",
+                           "#text": "Coyendanspark 1"
+                        },
+                        {
+                           "@name": "Thema",
+                           "#text": "Historische Huizen"
+                        },
+                        {
+                           "@name": "Gemeente",
+                           "#text": "Gent"
+                        },
+                        {
+                           "@name": "Pcode",
+                           "#text": "9000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.736423363384014,51.05399951750539"
+               }
+            },
+            {
+               "@id": "CUL_VECHISTORISCHEHUIZEN2019.4",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#CUL_VECHISTORISCHEHUIZEN2019_1",
+                     "SimpleData": [
+                        {
+                           "@name": "Naam",
+                           "#text": "Stadspaleis Hotel d'Hane-Steenhuyse"
+                        },
+                        {
+                           "@name": "Adres",
+                           "#text": "Veldstraat 51-55"
+                        },
+                        {
+                           "@name": "Thema",
+                           "#text": "Historische Huizen"
+                        },
+                        {
+                           "@name": "Gemeente",
+                           "#text": "Gent"
+                        },
+                        {
+                           "@name": "Pcode",
+                           "#text": "9000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.7217510352197505,51.05159869110508"
+               }
+            },
+            {
+               "@id": "CUL_VECHISTORISCHEHUIZEN2019.5",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#CUL_VECHISTORISCHEHUIZEN2019_1",
+                     "SimpleData": [
+                        {
+                           "@name": "Naam",
+                           "#text": "Stadspaleis Museum Arnold Vander Haeghen"
+                        },
+                        {
+                           "@name": "Adres",
+                           "#text": "Velstraat 82"
+                        },
+                        {
+                           "@name": "Thema",
+                           "#text": "Historische Huizen"
+                        },
+                        {
+                           "@name": "Gemeente",
+                           "#text": "Gent"
+                        },
+                        {
+                           "@name": "Pcode",
+                           "#text": "9000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.721220249464439,51.051529618742656"
+               }
+            },
+            {
+               "@id": "CUL_VECHISTORISCHEHUIZEN2019.6",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#CUL_VECHISTORISCHEHUIZEN2019_1",
+                     "SimpleData": [
+                        {
+                           "@name": "Naam",
+                           "#text": "Belfort"
+                        },
+                        {
+                           "@name": "Adres",
+                           "#text": "Botermarkt 17-18"
+                        },
+                        {
+                           "@name": "Thema",
+                           "#text": "Historische Huizen"
+                        },
+                        {
+                           "@name": "Gemeente",
+                           "#text": "Gent"
+                        },
+                        {
+                           "@name": "Pcode",
+                           "#text": "9000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.72498083350068,51.05367432747621"
+               }
+            },
+            {
+               "@id": "CUL_VECHISTORISCHEHUIZEN2019.7",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#CUL_VECHISTORISCHEHUIZEN2019_1",
+                     "SimpleData": [
+                        {
+                           "@name": "Naam",
+                           "#text": "Stadhuis"
+                        },
+                        {
+                           "@name": "Adres",
+                           "#text": "Botermarkt 1"
+                        },
+                        {
+                           "@name": "Thema",
+                           "#text": "Historische Huizen"
+                        },
+                        {
+                           "@name": "Gemeente",
+                           "#text": "Gent"
+                        },
+                        {
+                           "@name": "Pcode",
+                           "#text": "9000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.7249026639012874,51.05452085228226"
+               }
+            }
+         ]
+      }
+   }
+}

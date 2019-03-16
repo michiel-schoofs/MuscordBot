@@ -1,0 +1,579 @@
+{
+   "Document": {
+      "Schema": {
+         "@name": "Musea_1",
+         "@id": "Musea_1",
+         "SimpleField": [
+            {
+               "@name": "OBJECTID"
+            },
+            {
+               "@name": "NAAM"
+            },
+            {
+               "@name": "TYPE"
+            },
+            {
+               "@name": "controle"
+            },
+            {
+               "@name": "X"
+            },
+            {
+               "@name": "Y"
+            },
+            {
+               "@name": "X_LB72"
+            },
+            {
+               "@name": "Y_LB72"
+            }
+         ]
+      },
+      "Folder": {
+         "name": "Musea",
+         "Placemark": [
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_2729",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "24"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "SMAK"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.72285900"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.03823600"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "104786.09400000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "192232.46000000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.7228595616702234,51.03823576852762"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_272a",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "115"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "Museum voor Schone Kunsten (MSK)"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.72391000"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.03828800"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "104859.85900000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "192237.60500000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.723910560908239,51.03828776744528"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_272b",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "126"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "School van Toen"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.71725200"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.05547900"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "104409.62900000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "194154.10100000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.717252573212501,51.05547876417527"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_272c",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "128"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "Design Museum"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.72014200"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.05586600"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "104612.62800000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "194195.38300000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.7201425711607934,51.05586576366243"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_272d",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "131"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "Museum voor de geschiedenis vd Wetenschap"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.71263400"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.02348800"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "104054.46500000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "190598.09100000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.7126345562207126,51.02348777392898"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_272e",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "134"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "Huis van Alijn"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.72325200"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.05754600"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "104832.29600000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "194380.38000000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.723252571912101,51.05754576232154"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_272f",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "140"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "De Wereld van Kina - De Tuin"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.72550500"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.06446200"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "104996.90400000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "195148.39300000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.725505574492423,51.06446175987192"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_2730",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "150"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "Industriemuseum"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.72898400"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.05975800"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "105236.27700000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "194622.98600000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.7289845717213987,51.05975776038479"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_2731",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "156"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "Museum Dr. Guislain"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.70304400"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.06670700"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "103424.65700000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "195411.99300000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.70304458242195,51.06670676382753"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_2732",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "166"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "De Wereld van Kina - Het Huis"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.72653600"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.04170400"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "105047.32100000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "192616.02700000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.7265365619608652,51.04170376615593"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_2733",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "168"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "STAM"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.71655900"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.04402000"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "104349.86600000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "192879.75900000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.7165595660899102,51.04401976781365"
+               }
+            },
+            {
+               "@id": "Musea.fid-7a15a180_16981b818da_2734",
+               "ExtendedData": {
+                  "SchemaData": {
+                     "@schemaUrl": "#Musea_1",
+                     "SimpleData": [
+                        {
+                           "@name": "OBJECTID",
+                           "#text": "171"
+                        },
+                        {
+                           "@name": "NAAM",
+                           "#text": "Kunsthal Gent"
+                        },
+                        {
+                           "@name": "TYPE",
+                           "#text": "Musea"
+                        },
+                        {
+                           "@name": "controle",
+                           "#text": "xx"
+                        },
+                        {
+                           "@name": "X",
+                           "#text": "3.72204410"
+                        },
+                        {
+                           "@name": "Y",
+                           "#text": "51.05889485"
+                        },
+                        {
+                           "@name": "X_LB72",
+                           "#text": "104660.99100000"
+                        },
+                        {
+                           "@name": "Y_LB72",
+                           "#text": "194502.04500000"
+                        }
+                     ]
+                  }
+               },
+               "Point": {
+                  "coordinates": "3.722044118666035,51.058894835666756"
+               }
+            }
+         ]
+      }
+   }
+}
