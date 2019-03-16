@@ -2,6 +2,8 @@
 using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
+using MuscordBot.Data;
+using MuscordBot.Data.Connection;
 using System;
 using System.Reflection;
 using System.Threading.Tasks;
@@ -12,6 +14,7 @@ namespace MuscordBot {
         private CommandService _commands;
         private IServiceProvider _services;
         private readonly string prefix = "!";
+        private JSONConnection _connection;
 
         static void Main(string[] args) {
             new Program().MainAsync().GetAwaiter().GetResult();
@@ -20,12 +23,11 @@ namespace MuscordBot {
         public async Task MainAsync() {
             _client = new DiscordSocketClient();
             _commands = new CommandService();
+            ConnectionJson.InitializeClient();
 
-            
+            DependencyInjection();
+
             await InstallCommands();
-
-            DependencyInjection(); 
-
 
             Console.WriteLine("Logging in...");
             string botKey = "NTU2NDAyNzc3NTg5NTQ3MDA4.D25O0Q.GQaVOA5qo_lb42m04LMUyrplLVQ";

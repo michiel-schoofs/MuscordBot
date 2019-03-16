@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,21 +10,17 @@ namespace MuscordBot.Data.Connection
 {
 	public class JSONConnection
 	{
-		public string Link { get; set; }
-		public JSONConnection(string link)
-		{
-			Link = link;
-		}
 
-		public JObject ApiCall()
+		public JObject ApiCall(string link)
 		{
 			try
 			{
 				WebClient client = new WebClient();
-				Stream stream = client.OpenRead(Link);
-				StreamReader reader = new StreamReader(stream);
+				Stream stream = client.OpenRead(link);
+				//StreamReader reader = new StreamReader(stream);
+                JsonTextReader reader = new JsonTextReader(new StreamReader(stream));
 
-				JObject jObject = JObject.Parse(reader.ReadLine());
+                JObject jObject = JObject.Parse(reader.ReadAsString());
 
 				stream.Close();
 
