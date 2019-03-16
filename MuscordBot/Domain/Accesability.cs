@@ -8,7 +8,7 @@ namespace MuscordBot.Domain {
         public int id { get; set; }
         public bool wheelchairAc { get; set; }
         public int aangepasteToilleten { get; set; }
-        public int aangepasteParking { get; set; }
+        public bool aangepasteParking { get; set; }
         public int liften { get; set; }
     }
 }
