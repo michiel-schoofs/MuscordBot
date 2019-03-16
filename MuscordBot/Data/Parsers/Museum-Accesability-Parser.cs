@@ -16,7 +16,6 @@ namespace MuscordBot.Data.Parsers {
             foreach (JObject j in ja) {
                 Museum m = new Museum();
                 m.Naam = j.GetValue("Museum").ToString();
-                Console.WriteLine(m);
                 Accesability a = new Accesability();
                 var s = j.GetValue("Is het museum rolstoeltoegankelijk?").ToString();
                 a.wheelchairAc = s.Equals("volledig") ? true : false;
@@ -27,8 +26,11 @@ namespace MuscordBot.Data.Parsers {
                 a.aangepasteToilleten = int.Parse(j.GetValue("Hoeveel permanente aangepaste toiletten zijn er aanwezig?").ToString());
                 m.Accesability = a;
 
-                _museumRepo.add(m);
+                if(_museumRepo.getByName(m.Naam)==null)
+                    _museumRepo.add(m);
             }
+
+            _museumRepo.SaveChanges();
         }
     }
 }
